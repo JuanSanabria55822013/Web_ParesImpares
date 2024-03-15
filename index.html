@@ -10,19 +10,19 @@
     <header>
         <h1>WEB PARA MOSTRAR LOS PARES E IMPARES DE 200 NUMEROS</h1>
     </header>
-    <section>
-        <section>
-                <select>
-                    <option>NÚMEROS PARES</option>
-                    <option>NÚMEROS IMPARES</option>
-                    <option>NÚMEROS PARES MAYORES A</option>
-                    <option>NÚMEROS IMPARES MAYORE A</option>
+    <section class="contenPrincipal">
+        <section class="contenedor">
+                <select id="selector">
+                    <option value ="par">NÚMEROS PARES</option>
+                    <option value ="impar">NÚMEROS IMPARES</option>
+                    <option value ="parMay">NÚMEROS PARES MAYORES A</option>
+                    <option value ="imparMay">NÚMEROS IMPARES MAYORE A</option>
                 </select>
-                <input>
-                <button>VER</button>
+                <input class= "inputNormal" type="number" id="numero" placeholder="Introduce un número" min="1" max="199">
+                <button id="verNum">VER</button>
          </section>
-         <section>
-            <ul></ul>
+         <section class="lista">
+            <ul id="listaNumeros"></ul>
         </section>
     </section>
 </body>

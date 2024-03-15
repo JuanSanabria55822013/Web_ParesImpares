@@ -15,4 +15,4 @@ document.getElementById('selector').addEventListener('change', function() {
         numeroInput.classList.remove("inputMayor")
         numeroInput.classList.add("inputNormal")
         }
-    })
+})
