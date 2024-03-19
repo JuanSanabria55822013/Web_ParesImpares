@@ -7,7 +7,24 @@
     <link rel="stylesheet" href="CSS/estilo.css">
 </head>
 <body>
-    
+    <header>
+        <h1>WEB PARA MOSTRAR LOS PARES E IMPARES DE 200 NUMEROS</h1>
+    </header>
+    <section class="contenPrincipal">
+        <section class="contenedor">
+                <select id="selector">
+                    <option value ="par">NÚMEROS PARES</option>
+                    <option value ="impar">NÚMEROS IMPARES</option>
+                    <option value ="parMay">NÚMEROS PARES MAYORES A</option>
+                    <option value ="imparMay">NÚMEROS IMPARES MAYORE A</option>
+                </select>
+                <input class= "inputNormal" type="number" id="numero" placeholder="Introduce un número" min="1" max="199">
+                <button id="verNum">VER</button>
+         </section>
+         <section class="lista">
+            <ul id="listaNumeros"></ul>
+        </section>
+    </section>
 </body>
     <script src="JS/index.js"></script>
 </html>
